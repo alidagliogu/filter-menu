@@ -96,7 +96,7 @@ for(let i =0; i<menu.length ;i++){
   price = menu[i].price
   img = menu[i].img
   desc = menu[i].desc
-  newDiv.className = "col-6 row all" +" "+ category.toLowerCase() +" "+"close"
+  newDiv.className = "col-6 row all" +" "+ category.toLowerCase() 
   rowDOM.appendChild(newDiv)
   newDiv.innerHTML = `
   <div class="col-4">
